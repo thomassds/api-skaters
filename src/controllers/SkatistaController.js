@@ -1,5 +1,3 @@
-const database = require("../database");
-
 class SkatistaController {
   getAllSkaters(req, res) {
     return res.json(database);
