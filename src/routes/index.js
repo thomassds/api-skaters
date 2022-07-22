@@ -14,7 +14,7 @@ routes.post("/notas", NotaController.handleMediaNote);
 
 routes.get(
   "/numbers/cousin/:number",
-  MatematicaController.handleFilterImparNumbers
+  MatematicaController.handleFiltercousinNumbers
 );
 
 module.exports = routes;

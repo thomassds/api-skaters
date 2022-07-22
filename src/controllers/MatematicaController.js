@@ -1,13 +1,13 @@
 const MatematicaService = require("../service/MatematicaService");
 
 class MatematicaController {
-  handleFilterImparNumbers(req, res) {
+  handleFiltercousinNumbers(req, res) {
     const { number } = req.params;
 
     let numbers = [];
 
     for (let i = 2; i < number; i++) {
-      const response = MatematicaService.handleImpar(i);
+      const response = MatematicaService.handleCousin(i);
 
       if (response) numbers.push(i);
     }

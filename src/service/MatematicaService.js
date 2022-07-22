@@ -1,9 +1,14 @@
 class MatematicaService {
-  handleImpar(number) {
-    if (number % 2 === 0) {
-      return false;
+  handleCousin(number) {
+    let isCousin = true;
+    for (let index = 2; index < number; index++) {
+      if (number % index === 0) {
+        isCousin = false;
+        break;
+      }
     }
-    return true;
+
+    return isCousin;
   }
 }
 
