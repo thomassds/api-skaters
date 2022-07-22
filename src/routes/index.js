@@ -15,7 +15,7 @@ routes.post("/notas", NotaController.handleMediaNote);
 
 routes.get(
   "/numbers/cousin/:number",
-  MatematicaController.handleFiltercousinNumbers
+  MatematicaController.handleFilterCousinNumbers
 );
 
 // CRUD

@@ -1,7 +1,7 @@
 const MatematicaService = require("../service/MatematicaService");
 
 class MatematicaController {
-  handleFiltercousinNumbers(req, res) {
+  handleFilterCousinNumbers(req, res) {
     const { number } = req.params;
 
     let numbers = [];

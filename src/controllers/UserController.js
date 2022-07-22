@@ -75,4 +75,5 @@ class UserController {
   }
 }
 
+// foreach, map, filter, find, findIndex
 module.exports = new UserController();
